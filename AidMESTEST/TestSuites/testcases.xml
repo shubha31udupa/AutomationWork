@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MESSuite">
+
+	<parameter name="url" value="http://ec2-54-84-52-184.compute-1.amazonaws.com:8080/admin/"></parameter>
+	<parameter name="fileNameLocalization" value="Data\\localization.properties"></parameter>
+	<parameter name="fileNameUIdetails" value="Data\\uitext.properties"></parameter>
+	
+	<suite-files>
+		<suite-file path="userTestCaseSuite.xml"/>
+		<suite-file path="newuserTestCaseSuite.xml"/>    
+		<suite-file path="webserviceTestcaseSuite.xml"/>
+	</suite-files>
+	
+</suite> <!-- Suite -->

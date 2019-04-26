@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite - webservice tests" >
+  <parameter name="url" value="http://ec2-54-84-52-184.compute-1.amazonaws.com:3000/"></parameter>
+    <test name="Webservices">
+    <groups>
+  		<run>
+  			<include name="webservice"></include>
+  		</run>
+  	</groups>
+    <classes>
+     <class name="TestCases.webserviceTestCases">
+      </class>
+    </classes>
+  </test>  <!-- Test -->
+</suite> <!-- Suite -->
